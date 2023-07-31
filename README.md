@@ -7,7 +7,9 @@ start
 Create arry of 3 string values
 create variable x-increment wnen player round is finished , i- increment when user wins round, j-increment when computer wins round
 do {
-Prompt the user to enter  the his choice of 1-rock 2-paper 3-scissors
+    do{
+        Prompt the user to enter  the his choice of 1-rock 2-paper 3-scissors
+    }while( userinput <0&&useriput>2)
 Store the input in a variable
 Subtract the variable by 1 and store in the variable userinput
 Use the maths class to generate  a number between 0 and 2 inclusive 

@@ -3,7 +3,10 @@ let gameArry = ["Rock", "paper", "scissors"]
 let inputData = 0;  
 let i=0, j=0, x=0
 do {
-let userInput = prompt("choose : 1- rock  2- paper  3-scissors",inputData ,1)
+    do{     
+        userInput = prompt("choose : 1- rock  2- paper  3-scissors",inputData)
+    }while (userInput <1 ||userInput >3) 
+    
 //console.log(gameArry[userInput-1])
 //using math.random to generate the random choice made by the computer
 function getRandomNumber(min , max){
